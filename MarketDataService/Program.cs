@@ -22,7 +22,7 @@ while (true)
 
     if (input == "1")
     {
-        _ = Task.Run(() => { client.AutoConnect(); });
+        _ = client.AutoConnect();
         Console.WriteLine("client.Connect");
     }
     if (input == "2")

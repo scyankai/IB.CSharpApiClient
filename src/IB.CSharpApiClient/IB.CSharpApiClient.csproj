@@ -1,31 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
 
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Mathieu Paquette</Authors>
-    <PackageReleaseNotes />
-    <PackageTags>IB.CSharpApiClient</PackageTags>
-    <RepositoryUrl>https://github.com/mathpaquette/IB.CSharpApiClient</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/mathpaquette/IB.CSharpApiClient</PackageProjectUrl>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Copyright>Copyright © 2022 Mathieu Paquette</Copyright>
-    <Description>IB.CSharpApiClient</Description>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0</Version>
-  </PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Mathieu Paquette</Authors>
+		<PackageReleaseNotes />
+		<PackageTags>IB.CSharpApiClient</PackageTags>
+		<RepositoryUrl>https://github.com/mathpaquette/IB.CSharpApiClient</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/mathpaquette/IB.CSharpApiClient</PackageProjectUrl>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Copyright>Copyright © 2022 Mathieu Paquette</Copyright>
+		<Description>IB.CSharpApiClient</Description>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<Version>$([System.DateTime]::Now.ToString('yyyyMMdd.HHmmss'))</Version>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\packages\client\CSharpAPI.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\packages\client\CSharpAPI.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <None Include="..\..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
