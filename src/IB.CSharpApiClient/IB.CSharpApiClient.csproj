@@ -14,7 +14,7 @@
 		<Description>IB.CSharpApiClient</Description>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<FileVersion>1.0.0.0</FileVersion>
-		<Version>$([System.DateTime]::Now.ToString('yyyy.MM.dd.HHmm'))</Version>
+		<Version>10.24.$([System.DateTime]::Now.ToString('yyMMdd.HHmm'))</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
