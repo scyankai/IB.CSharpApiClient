@@ -18,14 +18,15 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\packages\client\CSharpAPI.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<None Include="..\..\LICENSE">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CSharpAPI" Version="10.24.230911.1926" />
+		<!--<ProjectReference Include="..\..\packages\client\CSharpAPI.csproj" />-->
 	</ItemGroup>
 
 </Project>
